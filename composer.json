@@ -1,0 +1,23 @@
+{
+    "name": "jdcorrales/container",
+    "description": "this is a demo IoC container, please do NOT use it in production",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan David Corrales",
+            "email": "jdcorraless@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jdcorrales\\Container\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.2"
+    }
+}
